@@ -129,8 +129,8 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
 
         // variables for recieving information
-        String maxTemp;
-        String  minTemp;
+        String maxTemp = "0";
+        String  minTemp = "0";
         Bitmap bitmapWeather;
         boolean isRoundWatch = false;
 
